@@ -1,0 +1,9 @@
+plugins {
+    id 'DumperProjectPlugin'
+}
+
+defaultTasks 'noop'
+
+task noop {
+    // a silent no-op task to prevent :help from running by default
+}

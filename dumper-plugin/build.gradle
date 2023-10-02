@@ -1,0 +1,16 @@
+plugins {
+    id 'groovy-gradle-plugin'
+}
+
+gradlePlugin {
+    plugins {
+        projectPlugin {
+            id = 'DumperProjectPlugin'
+            implementationClass = 'dumper.DumperProjectPlugin'
+        }
+        settingsPlugin {
+            id = 'DumperSettingsPlugin'
+            implementationClass = 'dumper.DumperSettingsPlugin'
+        }
+    }
+}

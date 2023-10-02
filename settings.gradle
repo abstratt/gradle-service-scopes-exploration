@@ -1,0 +1,9 @@
+// https://docs.gradle.org/current/userguide/composite_builds.html#included_plugin_builds
+// (buildSrc cannot contribute settings plugins)
+pluginManagement {
+    includeBuild 'dumper-plugin'
+}
+plugins {
+    id 'DumperSettingsPlugin'
+}
+
