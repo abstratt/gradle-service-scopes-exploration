@@ -1,0 +1,1 @@
+# gradle-service-scopes-exploration
