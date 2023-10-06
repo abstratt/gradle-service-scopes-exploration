@@ -1,5 +1,8 @@
 # gradle-service-scopes-exploration
 
+Make sure to check the wiki pages.
+
+The output below is produced by the Gradle project in this repository.
 
 
 ```
